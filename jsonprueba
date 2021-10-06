@@ -1,0 +1,48 @@
+{
+    "headers": {
+        "eventId": "eec58019-991f-412c-b324-d484fc319ffb",
+        "eventType": "priceODBMS",
+        "entityType": "price",
+        "entityId": "1304062",
+        "timestamp": "1619133318000",
+        "datetime": "2021-04-22T11:15:18.45Z",
+        "mimeType": "application/json",
+        "version": "0.1",
+        "country": "CL",
+        "commerce": "SODIMAC",
+        "channel": "ODBMS",
+        "domain": "MRCH",
+        "capability": "PRCR"
+    },
+    "data": {
+        "npc_Id": "320955882",
+        "productId": "1304062",
+        "storeId": "720",
+        "zoneId": "1",
+        "countryCode": "CL",
+        "currencyCode": "CLP",
+        "priceData": [{
+                "priceType": "NORMAL",
+                "value": "2345",
+                "tax": "1939.33",
+                "priority": "2",
+                "measureUnit": "CAJA",
+                "startDate": "2021-09-01T18:55:38",
+                "endDate": "2021-09-22T18:55:38"
+            }, {
+                "priceType": "EMPLOYEE",
+                "value": "2345"
+            }, {
+                "priceType": "BASE",
+                "value": "2345"
+            }, {
+                "priceType": "MARGIN",
+                "value": "2345"
+            }, {
+                "priceType": "MT2",
+                "value": "2345",
+                "conversionRate": "1.2"
+            }
+        ]
+    }
+}
